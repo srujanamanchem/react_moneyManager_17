@@ -1,0 +1,31 @@
+.table-entry {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border-bottom: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+.table-entry-value {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 12px;
+  width: 30%;
+}
+.delete-button {
+  background-color: white;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.delete-container {
+  display: flex;
+  width: 10%;
+}
+.delete-image {
+  width: 20px;
+}
